@@ -5,6 +5,8 @@
       "name" : "config",
       "expand_keys": true,
       "url" : "https://github.com/ravikumar10/gitconsul-config.git",
+      "include_branch_name" : false,
+      "ignore_file_extension" : true,
       "branches" : [
         "development"
       ],
