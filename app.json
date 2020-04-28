@@ -2,19 +2,16 @@
   "version": "1.0",
   "repos" : [
     {
-      "name" : "PHService",
+      "name" : "config",
       "expand_keys": true,
       "url" : "https://github.com/ravikumar10/gitconsul-config.git",
       "branches" : [
         "development"
       ],
-      "hooks": [
-        {
-          "type" : "github",
-          "port" : "8888",
-          "url" : "/github"
-        }
-      ]
+      "hooks": [{
+      "type" : "polling",
+      "interval" : "1"
+    }]
     }
   ]
 }
